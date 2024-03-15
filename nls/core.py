@@ -10,10 +10,7 @@ from . import logging, token, websocket
 from .exception import InvalidParameter, ConnectionTimeout, ConnectionUnavailable
 
 __URL__ = 'wss://nls-gateway.cn-shanghai.aliyuncs.com/ws/v1'
-__HEADER__ = [
-    'Sec-WebSocket-Key: x3JJHMbDL1EzLkh9GBhXDw==',
-    'Sec-WebSocket-Version: 13',
-]
+__HEADER__ = []
 
 __FORMAT__ = '%(asctime)s - %(levelname)s - %(message)s'
 #__all__ = ['NlsCore']
